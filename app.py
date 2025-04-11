@@ -9,7 +9,7 @@ classifier = pipeline('sentiment-analysis')
 st.title("Sentiment Analysis App")
 st.markdown("""
 This app is a simple, interactive web application built using Streamlit that performs sentiment analysis on user-inputted text using a pre-trained Hugging Face Transformers pipeline.
-How It Works:
+### How It Works:
 The app uses the pipeline('sentiment-analysis') function from the transformers library to load a pre-trained sentiment classifier.
 Users can input any text into a text area.
 Once the input is provided, the app analyzes the sentiment and displays:
